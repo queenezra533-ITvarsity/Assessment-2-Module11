@@ -1,0 +1,56 @@
+<head>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' type='text/css' href='style.css'> 
+    </head>
+    
+    <body>
+      <h1>Food Realm</h1>
+      <h2>Classy Township Food <br>
+        “Everything we do is about you. From chefs who create exciting new flavors, to crew members who know exactly how you want your drink . <br>
+        <br>
+        We strive to keep you at your best, and we remain loyal to you, your tastes and your time. That’s what America runs on.
+      </h2>
+
+
+      <h2>**Click on the name and you'll get your food show-description**</h2>
+      <div class="first">
+        <p>Vanilla and Chocolate Ice Cream<span class="price">R40</span><br />
+        <small>We don't want to brag, but as far as vanilla ice cream recipes go, this one is the best...</small></p>
+      </div>
+    
+      <div class="second">
+        <p>Lamb shank <span class="price">R65</span><br />
+        <small>
+          Braised Lamb Shanks With Thyme, Roast Carrots .These lamb shanks are perfectly braised in combination with thyme, roasted carrots and baby onion.
+           A fancy dish that you can easily master!</small></p>
+      </div>
+
+      <div class="third">
+        <p>Pastrami Boudin Tongue <span class="price">R37</span><br />
+        <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl.
+           Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+      </div>
+
+      <div class="fourth">
+        <p>Vegan<span class="price">R80</span><br />
+        <small>Brussels sprouts smashed potatoes and chicken with mustard dressing</small></p>
+      </div>
+    
+      
+      <div class="dessert">
+        <p>Full Roasted Chicken<span class="price">R143</span><br />
+        <small>24hr herb marinated full mouthwatering chicken slowly grilled.</small></p>
+      </div>
+    
+      <script>
+        $('div').on('click', function() {
+            $(this).toggleClass('show-description');
+        });
+      </script>
+    
+    </body>
+    
